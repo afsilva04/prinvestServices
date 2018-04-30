@@ -5,6 +5,15 @@ VALUES ('David');
 INSERT INTO user(name)
 VALUES ('Jorge');
 
+INSERT INTO user(name)
+VALUES ('Juanse');
+
+INSERT INTO user(name)
+VALUES ('Jhon');
+
+INSERT INTO user(name)
+VALUES ('Pipe');
+
 --OPERATION
 INSERT INTO operation (coin, entry, entryBTC, entryUSD, exit, exitBTC, exitUSD, user_id, date, comment)
 VALUES ('bitcoin', 100, 0.00000220000, 340, 130, 0.00000222111, 362, 1, '2018-01-01', 'First prinvest operation');
