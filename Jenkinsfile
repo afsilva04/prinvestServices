@@ -5,9 +5,21 @@ pipeline {
     }
 
     stages {
-        stage('build') {
+        stage('Clean Stage') {
+            steps {
+                sh 'gradle clean'
+            }
+        }
+
+        stage('Build Stage') {
             steps {
                 sh 'gradle build'
+            }
+        }
+
+        stage('Test Stage') {
+            steps {
+                sh 'gradle test'
             }
         }
     }
